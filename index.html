@@ -11,6 +11,7 @@
       margin: 40px auto;
       padding: 0 20px;
       line-height: 1.6;
+      text-align: left; /* make all text left-aligned */
     }
     h1 {
       text-align: center;
@@ -20,14 +21,21 @@
       margin: 20px 0;
       padding: 15px;
       text-align: center;
-      background: #000;
+      background: #1e90ff; /* blueish */
       color: #fff;
       text-decoration: none;
       font-size: 18px;
       border-radius: 6px;
+      transition: background-color 0.3s;
+    }
+    .btn:hover {
+      background: #1c86ee; /* slightly darker blue on hover */
     }
     .btn.secondary {
-      background: #444;
+      background: #3399ff; /* slightly lighter blue */
+    }
+    .btn.secondary:hover {
+      background: #2a86d9;
     }
   </style>
 </head>
